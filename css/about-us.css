@@ -1,0 +1,288 @@
+body{
+    height: 1700px;
+    width: auto
+}
+.lead {
+    font-size: 1.2rem;
+    font-weight: 300;
+    font-family: cursive;
+    margin-bottom: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #777;
+}
+.about .containar .image1 img{
+    background-image: url("../images/about-us.jpg");
+    background-size: cover;
+    max-width: 100%;
+    margin-top: -39px;
+}
+.oura{
+    margin-top: 50px;
+    background-color: beige;
+    
+}
+.oura hr{
+margin-top: 3rem;
+margin-bottom: 1rem;s
+border-top: 1px solid rgba(0,0,0,.1);
+height: 300px;
+width: 2px;
+background-color: rgb(208, 213, 203);
+    float:right;
+}
+.oura .col-sm-6 {
+-ms-flex: 0 0 50%;
+flex: 0 0 45%;
+max-width: 50%;
+}
+.oura .MASION ,
+.oura .GOALS
+{ 
+   width: 93px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: #8f4eb7;
+    margin-bottom: 22px;
+    margin-top: 40px;
+    margin-left: 35%;
+    text-align: center;
+    height: 87px;
+    line-height: 1.9;
+    padding-top: 11px;
+ }
+.oura .MASION span ,
+.oura .GOALS span
+{
+    text-align: center;
+    color: #FFF;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 17px;
+}
+h1{
+    margin-top: 50px
+}
+.ourteam{
+    background-image: url(../images/ourback10.jpg);
+    background-size: cover;
+    opacity: 0.8
+    
+}
+.ourteam .team{
+    text-align: center
+}
+.ourteam .team img{
+    border: 5px solid #FFF;
+   text-align: center; 
+    border-radius: 50%;
+     cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 30px
+ 
+}
+.ourteam .team img:hover{
+  opacity: 0.8;
+     -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+    animation;zoom .5 3
+}
+.our hr{
+    margin-top: -5rem;
+margin-bottom: -83rem;
+border: 9;
+border-top: 1px solid rgba(0,0,0,.1);
+height: 1284px;
+width: 2px;
+background-color: rgb(139, 138, 135);
+float: right;
+}
+.our .row img{
+    max-width: 150px;
+    max-height: 150px;
+    min-width: 100px;
+    margin: 10px;
+    opacity: 0.8;
+    border: 5px solid #FFF;
+    border-radius: 50%
+
+}
+.our .row .ues h2{
+    color: #FFF;
+     text-transform: capitalize;
+    font-size: 2em;
+    font-family: sans-serif;
+}
+.our .row .ues h4{
+    color: rgb(219, 212, 212);
+     text-transform: capitalize;
+    font-size: 21px;
+    margin-bottom: 19px;
+    font-family: sans-serif;
+}
+
+.our .row .ues .list-unstyled
+{
+    display: flex;
+}
+.our .row .ues .list-unstyled li img
+{
+    min-width: 10px;
+    min-height: 48px;
+    margin: 0 8px;
+    border: 2px solid #918282;
+    border-radius: 50%;
+    opacity: 0.5;
+}
+.our .row .ues .list-unstyled li img:hover{
+    cursor: pointer;
+    opacity:1; filter: alpha(opacity=70);
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.our .row .advisors {
+width: 120px;
+text-align: center;
+height: 30px;
+border-radius: 30px;
+background-color: #563D7C;
+color: #FFF;
+    margin-left: -50px;
+    
+}
+
+ .row .hider h3{
+    width: 120px;
+    text-align: center;
+    height: 30px;
+    border-radius: 30px;
+    background-color: #563D7C;
+    color: #FFF;
+    font-family: cursive;
+    margin-left: 48%;
+    margin-top: 45px;
+}
+.tools 
+{
+    background-color:#FFF;
+    height:500px;
+       background-image: url(../images/android_tiled_background.jpg);
+    background-size: cover;
+}
+.tools .container .hider h3{
+  text-align: center;
+    margin-left: 46%;
+    width: 240px;
+    background-color: rgb(164, 209, 202);
+    height: 60px;
+    border-radius: 20px;
+    border: 2px solid #73D3B0;
+}
+.tools .container .abc{
+    margin-top: 20px
+}
+.tools .container .android{
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin-top: 40px;
+    
+}
+
+.tools .container .android .row .one,
+.tools .container .web .row .one{
+    border: 2px solid rgb(157, 228, 185);
+    height: 54px;
+    width: 132px;
+    border-radius: 101px 100px 100px 100px;
+    margin-top: 30px;
+    background-color: rgb(157, 228, 185);
+    margin-left: 70px;
+    font-family: cursive;
+    opacity: 0.8
+}
+.tools .container .web{
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin-top: 40px;
+}
+.tools .container .web h3 ,
+.tools .container .android h3{
+    font-family: cursive;
+    border:2px solid #fff;
+    border-radius: 35%;
+    margin-left: 10px;
+    background-color: rgb(157, 228, 185);
+    opacity: 0.8
+}
+
+@media(max-width:768px)
+{
+    .ourteam .our .row  .advisors{
+        
+            margin-left:0;
+    }
+    .our .row .ues h4,
+    .our .row .ues h2,
+    .our .row img
+    {
+        margin-left: 30%;
+        opacity: 0.8
+    }
+    .tools {
+        height: 700px
+    }
+    .lead 
+    {
+        font-size: 1.25rem;
+        font-weight: 300;
+        font-family:serif;
+    }
+    .ourteam .team img
+    {
+        margin-left: 50%
+    }
+    .ourteam .team .iconteam
+    {
+        margin-right: 300px;
+    }
+    .our .row .ues .list-unstyled
+    {
+        margin-left: 90px
+    }
+    .tools .container .android .row .one,
+    .tools .container .web .row .one{
+        margin-left: 30px
+    }
+    .tools .container .hider h3{margin-left: 20%}
+    .oura hr{
+margin-top: 3rem;
+margin-bottom: 1rem;
+border: 9;
+border-top: 1px solid rgba(0,0,0,.1);
+height: 400px;
+width: 2px;
+background-color: rgb(208, 213, 203);
+    float: right;
+}
+    .our hr{
+    height: auto;
+}
+}
+
+@key fram zoom{
+    display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
